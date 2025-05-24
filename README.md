@@ -6,7 +6,7 @@ apt update && apt upgrade -y
 git clone https://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@github.com/valores9/Ubot
 ```
 ```
-cd ubot && screen -S Ubot
+cd Ubot && screen -S Ubot
 ```
 ```
 apt install ffmpeg -y
