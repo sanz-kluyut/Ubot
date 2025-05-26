@@ -104,7 +104,7 @@ class BTN:
         return button
         
     def ADD_EXP(user_id):
-        buttons = InlineKeyboard(rowdth=3)
+        buttons = InlineKeyboard(row_width=3)
         keyboard = []
         for X in range(1, 13):
             keyboard.append(
@@ -115,7 +115,7 @@ class BTN:
             )
         buttons.add(*keyboard)
         buttons.row(
-xin           InlineKeyboardButton(
+            InlineKeyboardButton(
                 "⦪ ᴅᴀᴘᴀᴛᴋᴀɴ ᴘʀᴏfɪʟ ⦫", callback_data=f"profil {user_id}"
             )
         )
@@ -138,11 +138,11 @@ xin           InlineKeyboardButton(
             button = [
                 [InlineKeyboardButton("⦪ ʙᴇʟɪ ᴜꜱᴇʀʙᴏᴛ ⦫", callback_data="bahan")],
                 [
-                    InlineKeyboardButton("⦪ ɢʀᴏᴜᴘ ᴘᴜʙʟɪᴄ ⳼", url="t.me/pi"), 
-                    InlineKeyboardButton("⦪ ᴄʜᴀɴɴᴇʟ ⦫", url="t.me/xinzzof")
+                    InlineKeyboardButton("⦪ ɢʀᴏᴜᴘ ᴘᴜʙʟɪᴄ ⳼", url="t.me/publicrico"), 
+                    InlineKeyboardButton("⦪ ᴄʜᴀɴɴᴇʟ ⦫", url="t.me/dhurove")
                 ],
                 [
-                   InlineKeyboardButton("⦪ ʙᴜᴀᴛ ᴜsᴇʀʙᴏᴛ ⳼", callback_data="buat_ubot"),
+                    InlineKeyboardButton("⦪ ʙᴜᴀᴛ ᴜsᴇʀʙᴏᴛ ⳼", callback_data="buat_ubot"),
                     InlineKeyboardButton("⦪ ʜᴇʟᴘ ᴍᴇɴᴜ ⦫", callback_data="help_back")
                 ],
                 [InlineKeyboardButton("⦪ sᴜᴘᴘᴏʀᴛ ⦫", callback_data="support")]
