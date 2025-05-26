@@ -1,9 +1,10 @@
 import asyncio
 import psutil
+import speedtest
 from datetime import datetime
-from speedtest import Speedtest
 from pyrogram import Client, filters
 from PyroUbot import *
+st = speedtest.Speedtest()
 
 __MODULE__ = "sᴘᴇᴇᴅ ᴛᴇsᴛ"
 __HELP__ = """
