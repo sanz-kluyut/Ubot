@@ -32,14 +32,14 @@ async def done_command(client, message):
         name_item = parts[0].strip()
         price = parts[1].strip()
         payment = parts[2].strip() if len(parts) > 2 else "Lainnya"
-        time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        time = datetime.now().strftime("%Y-%m-%d %H:%M")
         response = (
             f"<blockquote>「 𝗧𝗥𝗔𝗡𝗦𝗔𝗞𝗦𝗜 𝗕𝗘𝗥𝗛𝗔𝗦𝗜𝗟 」\n</blockquote>"
-            f"<blockquote>📦 <b>ʙᴀʀᴀɴɢ : {name_item}</b>\n"
+            f"<blockquote>🛒 <b>ʙᴀʀᴀɴɢ : {name_item}</b>\n"
             f"💸 <b>ɴᴏᴍɪɴᴀʟ : {price}</b>\n"
-            f"🕰️ <b>ᴡᴀᴋᴛᴜ : {time}</b>\n"
-            f"💬 <b>ᴘᴀʏᴍᴇɴᴛ : {payment}</b>\n</blockquote>"
-            f"<blockquote>ᴛᴇʀɪᴍᴀᴋᴀsɪʜ ᴛᴇʟᴀʜ ᴏʀᴅᴇʀ</blockquote>"
+            f"📆 <b>ᴡᴀᴋᴛᴜ : {time}</b>\n"
+            f"💳 <b>ᴘᴀʏᴍᴇɴᴛ : {payment}</b>\n</blockquote>"
+            f"<blockquote>Contact : @SanzTshX</blockquote>"
         )
         await izzy_ganteng.edit(response)
 
